@@ -84,6 +84,15 @@
     padding-left: 10%;
 }
 
+.animation-img{
+    transition: transform 0.5s;
+ }
+
+ .animation-img:hover{
+    transform: scale(0.9); 
+ }
+
+
 .new-arrivals-img p {
     font-family: nunito;
     font-size: 15px;
@@ -582,6 +591,7 @@
     .new-arrivals-img img{
         width: 140px;
     }
+
 
     .new-arrivals-img p{
         font-size: 10px;

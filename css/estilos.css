@@ -2,6 +2,7 @@
 
 .row{
     --bs-gutter-x: none;
+    
 }
 
 
@@ -89,10 +90,7 @@
 }
 
 .container-title-left{
-    margin-left: calc(1.5 * var(--bs-gutter-x));
-    margin-top: 40px;
     padding-left: 2%;
-
 }
 
 .title{
@@ -100,6 +98,7 @@
     font-weight: 600;
     font-size: 30px;
     color: #F2978A;
+    margin-top: 40px;
 }
 
 .animation-img{
@@ -130,39 +129,18 @@
  .link-ver-mas:hover{
     color: #F2978A;
  }
-
-
-
-.title-sumer-pack{
-    font-family: nunito;
-    font-weight: 600;
-    font-size: 30px;
-    color: #F2978A;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.container-summer{
-    background-color: #F6F4F4;
-    width: 100%;
-    height: 400px;
-    margin-bottom: 30px;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: 70% 30%;
-}
-
-.sumer-img{
-    width: 100%;
-}
  
-.summer-link{
-    text-align: center;
-    margin-top: 45%;
+ /* sumer-pack */
+
+ .container-summer{
+    margin-top: 40px;
+}
+ .sumer-img{
+    width: 100%;
 }
 
-.summer-link p{
+.container-summer-bg{
+    background-color: #F6F4F4;
     font-family: nunito;
     font-weight: 600;
     font-size: 30px;
@@ -170,45 +148,29 @@
     text-align: center;
 }
 
-.summer-link a{
-    font-weight: 600;
-    text-decoration: none;
-    font-family: nunito;
+.container-summer-bg p{
+    padding-top: 55%;
+}
+
+
+.container-summer-bg a{
+    cursor: pointer;
     font-size: 15px;
-    color: #848484;
-    text-align: center;
 }
 
-.summer-link a:hover{
-    color: #F2978A;
- 
-}
-
-.container-summer-2{
-    background-color: #F6F4F4;
-    width: 100%;
-    height: 400px;
-    margin-bottom: 30px;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: 30% 70%;
+.container-summer-bg a:hover{
+    color: #F2978A!important;
 }
 
 /* footer */
 
-.container-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.container-footer img{
+.icon-footer-1{
     width: 70px;
 }
 
-.envios{
-    padding: 30px;
-    text-align: center;
+
+.container-footer{
+    margin-top: 40px;
 }
 
 .titulo-footer{
@@ -221,22 +183,19 @@
 }
 
 .parrafo-footer{
-    text-decoration: none;
     font-family: nunito;
     font-size: 15px;
     color: #848484;
     text-align: initial;
-}
-
-.container-footer hr{
-    border: 1px solid #F2978A;
+    width: 90%;
+    padding-left: 20%;
 }
 
 .container-footer-2{
     display: flex;
     background-color: #F2978A;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px 0;
 }
 
@@ -256,51 +215,45 @@
 
 .logo-footer{
     width: 70px;
-    padding-right: 5%;
-}
+} 
 
                          /*             sobre vivre                     */
 
 /* contenido */
-    .carrusel img{
-        width: 100%;
-    }
 
-    .container-quienes-somos{
-        display: grid;
-        grid-template-columns: 40% 60%;
-        background-color: #F6F4F4;
-        width: 100%;
-        height: 400px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        overflow: hidden;
-    }
+.container-somos{
+    margin-top: 40px;
+    background-color: #F6F4F4;
+}
 
-    .quienes-somos-img{
-        width: 100%;
-    }
+.container-somos-p{
+    padding: 10% 5%;
+}
 
-    .somos-container{
-        margin-top: 25%
-    }
+.imagen-contenido img{
+    width: 100%;
+    margin-top: 5%;
+}
 
-    .somos-titulo{
-        font-family: nunito;
-        font-weight: 600;
-        font-size: 30px;
-        color: #F2978A;
-        text-align: center;
-    }
+.quienes-somos-img{
+     width: 100%;
+}
 
-    .somos-parrafo{
-        text-decoration: none;
-        font-family: nunito;
-        font-size: 15px;
-        padding: 20px;
-        line-height: 30px;
-    }
+.somos-titulo{
+    font-family: nunito;
+    font-weight: 600;
+    font-size: 30px;
+    color: #F2978A;
+    text-align: center;
+}
 
+.somos-parrafo{
+    text-decoration: none;
+    font-family: nunito;
+    font-size: 15px;
+    padding: 20px;
+    line-height: 30px;
+}
 
                                  /*             coleccion                     */
 
@@ -530,50 +483,32 @@
 
 @media only screen and (max-width: 1024px) {
 
-    /* contenido index */
-    .carrusel img{
-        width: 100%;
-    }
+    /*                         index                */
+    
+    /* nuevas tendencias */
+.animation-img{
+    width: 180px;
+}
 
-    .container-img{
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
+        /*          quienes somos             */
+.container-somos-p {
+    padding: 5% 5%;
+}
 
-    .new-arrivals-img{
-        padding-left: 25%;
-    }
-
-    .summer-link{
-        margin-top: 60%;
-    }
+  
 }
 
 
 
 @media only screen and (max-width: 768px) {
 
-    /* contenido index */
-    .new-arrivals-img{
-        padding-left: 10%;
-    }
-
-    .container-summer{
-        height: 360px;
-    }
-
-    .summer-link{
-        margin-top: 70%;
-    }
-
+    
                                  /*             sobre vivre                     */
-    .container-quienes-somos{
-        height: 334px;
-    }
 
-    .somos-container {
-        margin-top: 12%;
-    }
+.container-somos-p {
+padding: 0% 0%;
+}
+
 
                                /*            coleccion                     */
     .container-coleccion img{
@@ -598,71 +533,37 @@
 
 @media only screen and (max-width: 500px) {
 
-    /* contenido index */
-    .title-arrivals{
-        font-size: 20px;
+    /* nuevas tendencias */
+    .animation-img{
+        width: 300px;
     }
 
-    .title-sumer-pack{
-        font-size: 20px;
+    .title{
+       font-size: 25px;
+       margin-top: 30px;
     }
 
-    .new-arrivals-img img{
-        width: 140px;
+    .container-title-left {
+        padding-left: 8%;
     }
 
-    .new-arrivals-img p{
-        font-size: 10px;
+    /* sumemer pack */
+
+    .container-summer-bg p{
+        padding-top: 10%;
     }
 
-    .new-arrivals-img p a{
-        font-size: 8px;
+    .sport{
+        flex-direction: column-reverse;
     }
 
-    .new-arrivals-img{
-        padding-left: 10%;
-    }
+    /*       quienes somos      */
 
-    .container-summer{
-        height: 170px;
-    }
-
-    .container-summer-2{
-        height: 170px;
-    }
-
-    .summer-link p{
-        font-size: 20px;
-    }
-
-    .summer-link a{
-        font-size: 10px;
-    }
-
-    .container-footer{
-        display: block;
-        flex-direction: column;
-    }
-
-
-
-   .container-quienes-somos {
-    display: block;
-    height: 464px;
-   }
-
-   .somos-container {
-    margin-top: 10%;
+.imagen-contenido img {
+    margin-top: 24%;
 }
 
-   .somos-titulo{
-       font-size: 20px;
-   }
-
-   .somos-parrafo{
-        font-size: 12px;
-        line-height: 20px;
-   }
+    
 
                                 /*            coleccion                     */
    .container-2 {

@@ -257,150 +257,113 @@
 
                                  /*             coleccion                     */
 
-    .container-coleccion{
-        width: 100%;
-        display: inline-block;
-        position: relative;
-        z-index: -1;
-    }
-    
-    .container-coleccion img{
-        margin-top: 86px;
-    }
-
-    .container-coleccion p{
-        position: absolute;
-        left: 60%;
-        top: 45%;
-        font-family: nunito;
-        font-weight: 100;
-        font-size: 60px;
-        color: #F2978A;
-    }
-    .container-coleccion p span{
-        font-weight: 600;
-    }
-
-    .container-coleccion button{
-        background-color: #F2978A;
-        border: none;
-        width: 290px;
-        height: 65px;
-        border-radius: 15px;
-        color: white;
-        font-size: 20px;
-        font-family: 'Nunito';
-        font-weight: 600;
-        position: absolute;
-        top: 60%;
-        left: 64%;
-        cursor: pointer;
-    }
-
-    .container-2{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        margin-top: 40px;
+ .container-coleccion-2columnas{
+    justify-content: space-around;
 }
-    
-    .abrigos{
-        width: 570px;
-        height: 560px;
-        background-image: url("../img/coleccion/abrigo.png");
-    }
 
-    .camisas{
-        width: 570px;
-        height: 560px;
-        background-image: url("../img/coleccion/camisas.png");
-    }
+ .container-coleccion-c-1{
+    width: 570px;
+    height: 560px;
+    margin-top: 40px;
+}
 
-    .container-boton{
-        background-color: #F2978A;
-        width: 300px;
-        height: 115px;
-        text-align: center;
-        opacity: 0.9;
-        margin: 39% 24%;
-    }
+.abrigo{
+    background-image: url("../img/coleccion/abrigo.png");
+}
 
-    .container-boton p{
-        font-family: nunito;
-        font-weight: 600;
-        font-size: 25px;
-        color: white;
-        margin-bottom: 10px;
-        margin-top: 18px;
-    }
+.container-coleccion-button{
+    margin: 40% 25%;
+    background-color: #F2978A;
+    border: none;
+    width: 260px;
+    height: 110px;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
 
-    .container-boton a{
-        background-color: white;
-        padding: 2% 10%;
-        border-radius: 10px;
-        color: #F2978A;
-        text-decoration: none;
-        cursor: pointer;
-    }
+.title-coleccion-botton{
+    font-family: nunito;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+}
 
-    .container-boton a:hover{
-        box-shadow: 3px 3px 10px #8080806b;
-    }
+.button-coleccion{       
+    background-color: white;
+    padding: 2% 10%;
+    border-radius: 10px;
+    color: #F2978A;
+    text-decoration: none;
+    cursor: pointer;
+}
 
-    .container-unico{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        margin-top: 40px;
-    }
 
-    .vestidos{
-        margin-top: 40px;
-        width: 93%;
-        height: 400px;
-        background-image: url(../img/coleccion/vestidos.png);
-    }
+.button-coleccion:hover{       
+    box-shadow: 3px 3px 10px #8080806b;
+    color: #F2978A;
 
-    .margin-unico{
-        margin: 11% 38%; 
-    }
+}
 
-    .remeras{
-        width: 375px;
-        height: 458px;
-        background-image: url("../img/coleccion/remeras.png");
-    }
+.camisas{       
+    background-image: url("../img/coleccion/camisas.png");
+}
 
-    .shorts{
-        width: 375px;
-        height: 458px;
-        background-image: url("../img/coleccion/shorts.png");
-    }
+.container-columna-unica{       
+    width: 92%;
+    height: 400px;
+    margin-top: 40px;
+}
 
-    .pantalones{
-        width: 375px;
-        height: 458px;
-        background-image: url("../img/coleccion/pantalones.png");
-    }
+.vestidos{       
+    background-image: url("../img/coleccion/vestidos.png");
+}
 
-    .container-3{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        margin-top: 40px;
-    }
+.container-coleccion-1columna{       
+    justify-content: center;
+}
 
-    .columna-3{
-        margin: 45% 7%;
-    }
+.container-coleccion-button-2{ 
+    margin: 13% 40%;
+    background-color: #F2978A;
+    border: none;
+    width: 260px;
+    height: 130px;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
 
-    .accesorios{
-        margin-top: 40px;
-        width: 93%;
-        height: 400px;
-        background-image: url(../img/coleccion/accesorios.png);
-        margin-bottom: 40px;
-    }
+.container-coleccion-c-3{ 
+    width: 384px;
+    height: 465px;
+    margin-top: 40px;
+}
+
+.container-coleccion-button-3{ 
+    margin: 46% 16%;
+    background-color: #F2978A;
+    border: none;
+    width: 260px;
+    height: 110px;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.remera{       
+    background-image: url("../img/coleccion/remeras.png");
+}
+
+.short{       
+    background-image: url("../img/coleccion/shorts.png");
+}
+
+.pantalones{       
+    background-image: url("../img/coleccion/pantalones.png");
+}
+
+
 
     /* contacto */
 
@@ -409,7 +372,7 @@
         font-weight: 600;
         font-size: 30px;
         color: #F2978A;
-        margin-top: 110px;
+        padding-top: 110px;
         margin-bottom: 30px;
         text-align: center;
     }
@@ -418,7 +381,7 @@
         display:flex;
         background-color: #F6F4F4;
         justify-content: center;
-        height: 690px;
+        height: 776px;
     }
 
     .container-form{
@@ -474,7 +437,7 @@
     .container-img-coleccion{
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
-        margin-top: 125px;
+        padding-top: 125px;
     }
 
 
@@ -495,6 +458,33 @@
     padding: 5% 5%;
 }
 
+
+/* coleccion */
+
+.container-coleccion-c-1 {
+    width: 450px;
+}
+
+.container-coleccion-button {
+    margin: 50% 25%;
+}
+
+.container-coleccion-button-2 {
+    margin: 15% 37%;
+}
+
+.container-coleccion-c-3{
+    width: 275px;
+    height: 409px;
+}
+
+.container-coleccion-button-3 {
+    margin: 54% 3%;
+}
+
+
+
+
   
 }
 
@@ -511,18 +501,30 @@ padding: 0% 0%;
 
 
                                /*            coleccion                     */
-    .container-coleccion img{
-        width: 100%;
-    }
 
-    .container-coleccion p{
-        left: 52%;
-        font-size: 45px;
-    }
+.container-coleccion-c-1{
+    width: 350px;
+}
 
-    .container-coleccion button{
-        left: 53%;
-    }
+.container-coleccion-button {
+    margin: 65% 14%;
+}
+
+.container-coleccion-button-2 {
+    margin: 15% 37%;
+}
+
+.container-coleccion-c-3 {
+    width: 194px;
+    height: 350px;
+}
+
+.container-coleccion-button-3 {
+    width: 170px;
+    height: 168px;
+    padding: 14% 2%;
+}
+   
 
                                  /*            contacto                     */
 
@@ -566,52 +568,35 @@ padding: 0% 0%;
     
 
                                 /*            coleccion                     */
-   .container-2 {
-    display: block;
-    flex-direction: column;
-    padding-left: 2.5%;
-}      
 
-.container-2mobile {
-    width: 340px;
-    height: 500px;
-    margin-bottom: 30px;
+
+.container-coleccion-c-1 {
+    width: 330px;
+    height: 538px;
 }
 
-.container-boton{
-    margin: 53% 6%;
+.container-coleccion-button {
+    margin: 65% 10%;
 }
 
-.container-boton {
-    margin: 41% 6%;
+.container-coleccion-button-2 {
+    margin: 45% 11%;
 }
 
-.vestidos {
-    margin-top: 30px;
+.container-coleccion-c-3{
+    width: 330px;
+    height: 456px;
 }
 
-.container-3{
-    display: block;
-    flex-direction: column;
-    padding-left: 2.5%;
-}
+.container-coleccion-button-3{
+    width: 260px;
+    height: 130px;
+    margin: 51% 10%;
+    padding: 2%;
 
-.remeras{
-    margin-bottom: 30px;
 }
 
 
-.container-coleccion p{
-    font-size: 18px;
-}
-
-.container-coleccion button{
-    left: 56%;
-    font-size: 10px;
-    width: 143px;
-    height: 36px;
-    border-radius: 9px;
-}
 
                              /*            contacto                    */
 .title-contacto {
@@ -625,5 +610,15 @@ padding: 0% 0%;
 .container-img-coleccion{
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.mapa-google{
+    width: 100%;
+}
+
+/* abrigos */
+
+.new-arrivals-img img{
+    width: 150px;
 }
 }

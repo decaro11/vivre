@@ -1,0 +1,57 @@
+@import "variables";
+
+.navbar{
+    position: fixed!important;
+    width: 100%;
+    z-index: 20000;
+    box-shadow: 3px 3px 10px #8080806b;
+
+    .navbar-logo{
+        width: 100px;
+    }
+
+    .nav-link{
+        font-family: 'Nunito';
+        color: $secundary-color!important;
+        &:hover{
+            color: $primary-color!important;
+        }
+    }
+
+    .active{
+        color: $primary-color!important;
+    }
+
+    .icon-button-nav{
+        width: 35px;
+        padding-right: 5px;
+        padding-left: 9px;
+        padding-top: 6px;
+    }
+
+    .form-control{
+        border: 1px solid $primary-color!important;
+        border-radius: 35px!important;
+        color: $secundary-color!important;
+        &:focus{
+            box-shadow: 0px 2px 10px #8080806b!important;
+        }
+    }
+
+    .dropdown-item{
+        font-family: 'Nunito';
+        color: $secundary-color!important; 
+        &:active{
+            background-color: $primary-color!important;
+            color: $write-color!important;
+        }
+    }
+
+    .navbar-toggler{
+        color: $primary-color!important;
+        &:focus{
+            box-shadow: 0 0 0 1px!important;
+        }
+    }
+    
+}

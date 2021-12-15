@@ -1,0 +1,54 @@
+@import "variables";
+
+.container-footer{
+    margin-top: 40px;
+
+    .icon-footer-1{
+        width: 70px;
+    }
+
+    .titulo-footer{
+        font-family: nunito;
+        font-weight: 600;
+        font-size: 20px;
+        color: $primary-color;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .parrafo-footer{
+        font-family: nunito;
+        font-size: 15px;
+        color: $secundary-color;
+        text-align: initial;
+        width: 90%;
+        padding-left: 20%;
+    }
+}
+
+.container-footer-2{
+    display: flex;
+    background-color:$primary-color;
+    width: 100%;
+    justify-content: space-around;
+    padding: 15px 0;
+
+    a{
+        img{
+            width: 50px;
+            padding-left: 20px;
+        }
+    }
+
+    p{
+        font-family: nunito;
+        font-weight: 600;
+        font-size: 20px;
+        color: $write-color;
+        padding-top: 1%;
+    }
+
+    .logo-footer{
+        width: 70px;
+    } 
+}

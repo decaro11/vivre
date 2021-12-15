@@ -1,0 +1,64 @@
+@import "variables";
+@import "navbar";
+@import "Footer";
+
+.row{
+    --bs-gutter-x: none;
+    
+}
+//                          sobre vivre------------------------------------------------
+
+// contenido 
+
+.imagen-contenido{
+    img{
+        width: 100%;
+        margin-top: 5%;
+
+        @media only screen and (max-width: 500px) {
+            margin-top: 24%;
+        }
+    }
+
+ 
+}
+
+.container-somos{
+    margin-top: 40px;
+    background-color:$write-color;
+
+    .container-somos-p{
+        padding: 10% 5%;
+
+        @media only screen and (max-width: 1024px){
+            padding: 5% 5%;
+        }
+
+        @media only screen and (max-width: 768px){
+            padding: 0% 0%;
+        }
+
+        .somos-titulo{
+            font-family: nunito;
+            font-weight: 600;
+            font-size: 30px;
+            color: $primary-color;
+            text-align: center;
+        }
+    
+        .somos-parrafo{
+            text-decoration: none;
+            font-family: nunito;
+            font-size: 15px;
+            padding: 20px;
+            line-height: 30px;
+        }
+    }
+
+    .quienes-somos-img{
+        width: 100%;
+   }
+
+   
+}
+

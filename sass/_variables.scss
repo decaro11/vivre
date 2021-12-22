@@ -1,7 +1,39 @@
 // fuentes
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap');
 
+// titulos
+// mixin
+@mixin title {
+    font-family: nunito;
+    font-weight: 600;
+    font-size: 30px;
+}
+
 // color
-$primary-color:#F2978A;
-$secundary-color: #848484;
-$write-color:#fff; 
+ $primary-color:#F2978A;
+ $secundary-color: #848484;
+ $write-color:#fff; 
+
+// maps
+$colors:(
+    primary: $primary-color,
+    secundary: $secundary-color,
+    write: $write-color,
+);
+
+@each $name, $value in $colors {
+    .bg-#{$name} {
+        background-color: $value;
+    }
+    .color-#{$name} {
+        color: $value;
+    }
+}
+
+// extend
+.boton{
+    padding: 2% 10%;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}

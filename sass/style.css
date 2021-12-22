@@ -1,6 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
+.bg-primary {
+  background-color: #F2978A;
+}
+
+.color-primary {
+  color: #F2978A;
+}
+
+.bg-secundary {
+  background-color: #848484;
+}
+
+.color-secundary {
+  color: #848484;
+}
+
+.bg-write {
+  background-color: #fff;
+}
+
+.color-write {
+  color: #fff;
+}
+
+.boton, .container-somos .container-somos-p .button-1, .container-somos .container-somos-p .button-2 {
+  padding: 2% 10%;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bg-primary {
+  background-color: #F2978A;
+}
+
+.color-primary {
+  color: #F2978A;
+}
+
+.bg-secundary {
+  background-color: #848484;
+}
+
+.color-secundary {
+  color: #848484;
+}
+
+.bg-write {
+  background-color: #fff;
+}
+
+.color-write {
+  color: #fff;
+}
+
+.boton, .container-somos .container-somos-p .button-1, .container-somos .container-somos-p .button-2 {
+  padding: 2% 10%;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .navbar {
   position: fixed !important;
   width: 100%;
@@ -61,6 +123,37 @@
 .navbar .navbar-toggler:focus {
   -webkit-box-shadow: 0 0 0 1px !important;
           box-shadow: 0 0 0 1px !important;
+}
+
+.bg-primary {
+  background-color: #F2978A;
+}
+
+.color-primary {
+  color: #F2978A;
+}
+
+.bg-secundary {
+  background-color: #848484;
+}
+
+.color-secundary {
+  color: #848484;
+}
+
+.bg-write {
+  background-color: #fff;
+}
+
+.color-write {
+  color: #fff;
+}
+
+.boton, .container-somos .container-somos-p .button-1, .container-somos .container-somos-p .button-2 {
+  padding: 2% 10%;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .container-footer {
@@ -141,6 +234,16 @@
   padding: 10% 5%;
 }
 
+.container-somos .container-somos-p .button-1 {
+  background-color: #F2978A;
+  color: #fff;
+}
+
+.container-somos .container-somos-p .button-2 {
+  background-color: #848484;
+  color: #fff;
+}
+
 @media only screen and (max-width: 1024px) {
   .container-somos .container-somos-p {
     padding: 5% 5%;
@@ -157,7 +260,6 @@
   font-family: nunito;
   font-weight: 600;
   font-size: 30px;
-  color: #F2978A;
   text-align: center;
 }
 

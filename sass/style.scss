@@ -30,6 +30,18 @@
     .container-somos-p{
         padding: 10% 5%;
 
+        .button-1{
+        @extend .boton;
+        background-color: $primary-color;
+        color: $write-color;
+        }
+
+        .button-2{
+            @extend .boton;
+            background-color: $secundary-color;
+            color: $write-color;
+            }
+
         @media only screen and (max-width: 1024px){
             padding: 5% 5%;
         }
@@ -39,10 +51,7 @@
         }
 
         .somos-titulo{
-            font-family: nunito;
-            font-weight: 600;
-            font-size: 30px;
-            color: $primary-color;
+            @include title;
             text-align: center;
         }
     

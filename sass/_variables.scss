@@ -9,6 +9,67 @@
     font-size: 30px;
 }
 
+@mixin subtitle {
+    font-family: nunito;
+    font-size: 15px;
+}
+
+@mixin title-formulario {
+    font-family: nunito;
+    font-weight: 600;
+    font-size: 20px;
+    color:  $secundary-color;
+}
+
+@mixin formulario-input {
+    font-family: 'Nunito';
+    border: 1px solid $primary-color;
+    padding: 5px;
+    width: 250px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+@mixin link {
+    font-weight: 600;
+    text-decoration: none;
+    font-family: nunito;
+    font-size: 15px;
+    cursor: pointer;
+    &:hover{
+        color: $primary-color;
+    }
+}
+
+// botones
+@mixin container-button {
+    background-color: $primary-color;
+    border: none;
+    width: 260px;
+    text-align: center;
+    padding: 2%;
+}
+
+@mixin title-button {
+    font-family: nunito;
+    font-weight: 600;
+    font-size: 25px;
+    color: $write-color;
+}
+
+@mixin button {
+    background-color: $write-color;
+    padding: 2% 10%;
+    border-radius: 10px;
+    color:  $primary-color;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 3px 3px 10px #8080806b;
+        color: $primary-color;
+    }
+}
+
 // color
  $primary-color:#F2978A;
  $secundary-color: #848484;
@@ -37,3 +98,4 @@ $colors:(
     text-decoration: none;
     cursor: pointer;
 }
+

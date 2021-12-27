@@ -7,10 +7,9 @@
     <title>Vivre</title>
     <link rel="icon" type="image/x-icon" href="img/icon/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="sass/style.css">
 </head>
 <body>
-     <!-- navbar -->
    <!-- navbar -->
    <nav class=" navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -32,10 +31,9 @@
                 <li><a class="dropdown-item" href="coleccion.html">Todas las colecciones</a></li>
                 <li><a class="dropdown-item" href="colecciones/abrigos.html">Abrigos</a></li>
                 <li><a class="dropdown-item" href="colecciones/camisas.html">Camisas</a></li>
-                <li><a class="dropdown-item" href="">Vestidos</a></li>
-                <li><a class="dropdown-item" href="">Shorts</a></li>
-                <li><a class="dropdown-item" href="">Pantalones</a></li>
-                <li><a class="dropdown-item" href="">Accesorios</a></li>
+                <li><a class="dropdown-item" href="colecciones/vestidos.html">Vestidos</a></li>
+                <li><a class="dropdown-item" href="colecciones/short.html">Shorts</a></li>
+                <li><a class="dropdown-item" href="colecciones/pantalones.html">Pantalones</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -50,7 +48,6 @@
       </div>
     </div>
   </nav>
-    
   
 
      <!-- carrusel -->
@@ -78,95 +75,94 @@
  
 
        <!-- contenido  -->
-
-       <div class="row container-coleccion-2columnas">
-           <div class="col-xl-6 col-md-6 container-coleccion-c-1 abrigo">
-                <div class="container-coleccion-button">
-                    <p class="title-coleccion-botton">ABRIGOS</p>
-                    <a class="button-coleccion" href="colecciones/abrigos.html">SHOP NOW</a>
-                </div>
-           </div>
-
-           <div class="col-xl-6 col-md-6 container-coleccion-c-1 camisas">
-            <div class="container-coleccion-button">
-                <p class="title-coleccion-botton">CAMISAS</p>
-                <a class="button-coleccion" href="">SHOP NOW</a>
+      <main>
+        <div class="row container-colecciones-2">
+            <div class="col-xl-6 col-md-6 colecciones-1 abrigo">
+                  <div class="container-coleccion-button">
+                      <p class="title-coleccion-botton">ABRIGOS</p>
+                      <a class="button-coleccion" href="colecciones/abrigos.html">SHOP NOW</a>
+                  </div>
             </div>
-       </div>
-       </div>
+
+            <div class="col-xl-6 col-md-6 colecciones-1 camisas">
+              <div class="container-coleccion-button">
+                  <p class="title-coleccion-botton">CAMISAS</p>
+                  <a class="button-coleccion" href="">SHOP NOW</a>
+              </div>
+        </div>
+        </div>
 
 
-       <div class="row container-coleccion-1columna">
-           <div class="col-12 container-columna-unica vestidos">
-            <div class="container-coleccion-button-2">
-                <p class="title-coleccion-botton">VESTIDOS</p>
-                <a class="button-coleccion" href="">SHOP NOW</a>
+        <div class="row container-colecciones">
+            <div class="col-12 colecciones vestidos">
+              <div class="container-coleccion-button">
+                  <p class="title-coleccion-botton">VESTIDOS</p>
+                  <a class="button-coleccion" href="">SHOP NOW</a>
+              </div>
             </div>
-           </div>
-       </div>
+        </div>
 
-       <div class="row container-coleccion-2columnas">
-           <div class="col-xl-4 col-lg-4 container-coleccion-c-3 remera">
-            <div class="container-coleccion-button-3">
-                <p class="title-coleccion-botton">REMERAS Y TOPS</p>
-                <a class="button-coleccion" href="">SHOP NOW</a>
+        <div class="row container-colecciones-2">
+            <div class="col-xl-4 col-lg-4 colecciones-2 remera">
+              <div class="container-coleccion-button">
+                  <p class="title-coleccion-botton">REMERAS Y TOPS</p>
+                  <a class="button-coleccion" href="">SHOP NOW</a>
+              </div>
             </div>
-           </div>
 
-           <div class="col-xl-4 col-lg-4 container-coleccion-c-3 short">
-            <div class="container-coleccion-button-3">
-                <p class="title-coleccion-botton">SHORTS</p>
-                <a class="button-coleccion" href="">SHOP NOW</a>
+            <div class="col-xl-4 col-lg-4 colecciones-2 short">
+              <div class="container-coleccion-button">
+                  <p class="title-coleccion-botton">SHORTS</p>
+                  <a class="button-coleccion" href="">SHOP NOW</a>
+              </div>
             </div>
-           </div>
 
-           <div class="col-xl-4 col-lg-4 container-coleccion-c-3 pantalones">
-            <div class="container-coleccion-button-3">
-                <p class="title-coleccion-botton">PANTALONES</p>
-                <a class="button-coleccion" href="">SHOP NOW</a>
+            <div class="col-xl-4 col-lg-4 colecciones-2 pantalones">
+              <div class="container-coleccion-button">
+                  <p class="title-coleccion-botton">PANTALONES</p>
+                  <a class="button-coleccion" href="">SHOP NOW</a>
+              </div>
             </div>
-           </div>
-       </div>
-
-
-         <!-- Summer pack   -->
-
-         <div class="row">
-            <div class="col-12  text-center">
-              <p class="title">Summer pack</p>
-            </div>
+        </div>
+      </main>
+             <!-- Summer pack   -->
+      <section>
+        <div class="row">
+          <div class="col-12 container-summer-title">
+            <h1 class="titulos color-primary">Summer pack</h1>
           </div>
-  
-          <div class="row container-summer">
-            <div class="col-xl-8 col-md-8">
-              <img class="sumer-img" src="img/summer/sumer1.jpg">
-            </div>
-  
-            <div class="col-xl-4 col-md-4 container-summer-bg">
-                  <p class="">Moda Summer <br> <a src="#" target="black">Ver mas</a></p>
-            </div>
-          </div>
-  
-          <div class="row container-summer sport">
-            <div class="col-xl-4 col-md-4 container-summer-bg">
-              <p class="">Sport Summer <br> <a src="#" target="black">Ver mas</a></p>
-            </div>
-            
-            <div class="col-xl-8 col-md-8 ">
-              <img class="sumer-img" src="img/summer/2.png"> 
-            </div>
-          </div>
-  
-          <div class="row container-summer">
-            <div class="col-xl-8 col-md-8">
-              <img class="sumer-img" src="img/summer/3.jpg">
-            </div>
-  
-            <div class="col-xl-4 col-md-4 container-summer-bg">
-                  <p class="">Elegant Summer<br> <a src="#" target="black">Ver mas</a></p>
-            </div>
+        </div>
+
+        <div class="row container-summer">
+          <div class="col-xl-8 col-md-8">
+            <img class="sumer-img" src="img/summer/sumer1.jpg" alt="moda de verano">
           </div>
 
+          <div class="col-xl-4 col-md-4 container-summer-bg">
+                <h1 class="color-secundary">Moda Summer <br> <a src="#" target="black">Ver mas</a></h1>
+          </div>
+        </div>
+
+        <div class="row container-summer sport">
+          <div class="col-xl-4 col-md-4 container-summer-bg">
+            <h1 class="color-secundary">Sport Summer <br> <a src="#" target="black">Ver mas</a></h1>
+          </div>
+          
+          <div class="col-xl-8 col-md-8 ">
+            <img class="sumer-img" src="img/summer/2.png" alt="deportes de verano"> 
+          </div>
+        </div>
+
+        <div class="row container-summer">
+          <div class="col-xl-8 col-md-8">
+            <img class="sumer-img" src="img/summer/3.jpg" alt="ropa elegante">
+          </div>
+
+          <div class="col-xl-4 col-md-4 container-summer-bg">
+                <h1 class="color-secundary">Elegant Summer<br> <a src="#" target="black">Ver mas</a></h1>
+          </div>
+        </div>
+      </section>
 
      <!-- footer -->
 

@@ -193,6 +193,10 @@
   padding: 15px 0;
 }
 
+.container-footer-2 a {
+  text-decoration: none;
+}
+
 .container-footer-2 a img {
   width: 50px;
   padding-left: 20px;
@@ -212,6 +216,133 @@
 
 .row {
   --bs-gutter-x: none;
+}
+
+.carousel {
+  padding-top: 89px;
+}
+
+.carousel .carousel-control-prev {
+  top: 100px !important;
+}
+
+.carousel .carousel-control-next {
+  top: 100px !important;
+}
+
+.container-new-arrivals-title .titulos {
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 40px 30px;
+}
+
+.container-new-arrivals {
+  text-align: center;
+}
+
+.container-new-arrivals .animation-img {
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-new-arrivals .animation-img {
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container-new-arrivals .animation-img {
+    width: 300px;
+  }
+}
+
+.container-new-arrivals .animation-img:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-box-shadow: 3px 3px 10px #8080806b;
+          box-shadow: 3px 3px 10px #8080806b;
+}
+
+.container-new-arrivals .subtitulo {
+  font-family: nunito;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.container-new-arrivals .link-ver-mas {
+  font-weight: 600;
+  text-decoration: none;
+  font-family: nunito;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.container-new-arrivals .link-ver-mas:hover {
+  color: #F2978A;
+}
+
+.container-new-arrivals .link-ver-mas:hover {
+  color: #F2978A;
+}
+
+.container-summer-title .titulos {
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+
+.container-summer {
+  margin: 40px 0;
+}
+
+.container-summer .sumer-img {
+  width: 100%;
+}
+
+.container-summer .container-summer-bg {
+  background-color: #F6F4F4;
+  text-align: center;
+}
+
+.container-summer .container-summer-bg h1 {
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 55%;
+}
+
+@media only screen and (max-width: 500px) {
+  .container-summer .container-summer-bg h1 {
+    padding-top: 10%;
+  }
+}
+
+.container-summer .container-summer-bg a {
+  font-weight: 600;
+  text-decoration: none;
+  font-family: nunito;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.container-summer .container-summer-bg a:hover {
+  color: #F2978A;
+}
+
+@media only screen and (max-width: 500px) {
+  .sport {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
 }
 
 .imagen-contenido img {
@@ -256,7 +387,7 @@
   }
 }
 
-.container-somos .container-somos-p .somos-titulo {
+.container-somos .container-somos-p .titulos {
   font-family: nunito;
   font-weight: 600;
   font-size: 30px;
@@ -273,5 +404,343 @@
 
 .container-somos .quienes-somos-img {
   width: 100%;
+}
+
+.container-colecciones-2 {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container-colecciones-2 .colecciones-1 {
+  width: 570px;
+  height: 560px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-colecciones-2 .colecciones-1 {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-colecciones-2 .colecciones-1 {
+    width: 330px;
+  }
+}
+
+.container-colecciones-2 .colecciones-1 .container-coleccion-button {
+  background-color: #F2978A;
+  border: none;
+  width: 260px;
+  text-align: center;
+  padding: 2%;
+  margin: 40% 25%;
+  height: 110px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-colecciones-2 .colecciones-1 .container-coleccion-button {
+    margin: 50% 25%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-colecciones-2 .colecciones-1 .container-coleccion-button {
+    margin: 68% 12%;
+  }
+}
+
+.container-colecciones-2 .colecciones-1 .container-coleccion-button .title-coleccion-botton {
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 25px;
+  color: #fff;
+}
+
+.container-colecciones-2 .colecciones-1 .container-coleccion-button .button-coleccion {
+  background-color: #fff;
+  padding: 2% 10%;
+  border-radius: 10px;
+  color: #F2978A;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-colecciones-2 .colecciones-1 .container-coleccion-button .button-coleccion:hover {
+  -webkit-box-shadow: 3px 3px 10px #8080806b;
+          box-shadow: 3px 3px 10px #8080806b;
+  color: #F2978A;
+}
+
+.container-colecciones-2 .colecciones-2 {
+  width: 317px;
+  height: 465px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-colecciones-2 .colecciones-2 {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-colecciones-2 .colecciones-2 {
+    width: 223px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container-colecciones-2 .colecciones-2 {
+    width: 328px;
+  }
+}
+
+.container-colecciones-2 .colecciones-2 .container-coleccion-button {
+  background-color: #F2978A;
+  border: none;
+  width: 260px;
+  text-align: center;
+  padding: 2%;
+  margin: 55% 9%;
+  height: 110px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-colecciones-2 .colecciones-2 .container-coleccion-button {
+    margin: 63% 4%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-colecciones-2 .colecciones-2 .container-coleccion-button {
+    margin: 80% 8%;
+    width: 190px;
+    height: 142px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container-colecciones-2 .colecciones-2 .container-coleccion-button {
+    margin: 54% 11%;
+    background-color: #F2978A;
+    border: none;
+    width: 260px;
+    text-align: center;
+    padding: 2%;
+  }
+}
+
+.container-colecciones-2 .colecciones-2 .container-coleccion-button .title-coleccion-botton {
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 25px;
+  color: #fff;
+}
+
+.container-colecciones-2 .colecciones-2 .container-coleccion-button .button-coleccion {
+  background-color: #fff;
+  padding: 2% 10%;
+  border-radius: 10px;
+  color: #F2978A;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-colecciones-2 .colecciones-2 .container-coleccion-button .button-coleccion:hover {
+  -webkit-box-shadow: 3px 3px 10px #8080806b;
+          box-shadow: 3px 3px 10px #8080806b;
+  color: #F2978A;
+}
+
+.container-colecciones-2 .abrigo {
+  background-image: url("../img/coleccion/abrigo.png");
+}
+
+.container-colecciones-2 .camisas {
+  background-image: url("../img/coleccion/camisas.png");
+}
+
+.container-colecciones-2 .remera {
+  background-image: url("../img/coleccion/remeras.png");
+}
+
+.container-colecciones-2 .short {
+  background-image: url("../img/coleccion/shorts.png");
+}
+
+.container-colecciones-2 .pantalones {
+  background-image: url("../img/coleccion/pantalones.png");
+}
+
+.container-colecciones {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-colecciones .colecciones {
+  width: 88%;
+  height: 400px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-colecciones .colecciones {
+    width: 94%;
+  }
+}
+
+.container-colecciones .colecciones .container-coleccion-button {
+  background-color: #F2978A;
+  border: none;
+  width: 260px;
+  text-align: center;
+  padding: 2%;
+  margin: 13% 40%;
+  height: 130px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-colecciones .colecciones .container-coleccion-button {
+    margin: 19% 34%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container-colecciones .colecciones .container-coleccion-button {
+    margin: 40% 13%;
+  }
+}
+
+.container-colecciones .colecciones .container-coleccion-button .title-coleccion-botton {
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 25px;
+  color: #fff;
+}
+
+.container-colecciones .colecciones .container-coleccion-button .button-coleccion {
+  background-color: #fff;
+  padding: 2% 10%;
+  border-radius: 10px;
+  color: #F2978A;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-colecciones .colecciones .container-coleccion-button .button-coleccion:hover {
+  -webkit-box-shadow: 3px 3px 10px #8080806b;
+          box-shadow: 3px 3px 10px #8080806b;
+  color: #F2978A;
+}
+
+.container-colecciones .vestidos {
+  background-image: url("../img/coleccion/vestidos.png");
+}
+
+.container-title-contacto .titulos {
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 110px;
+  margin-bottom: 30px;
+}
+
+.container-contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 776px;
+}
+
+.container-contacto .container-form {
+  padding: 40px 0;
+}
+
+.container-contacto img {
+  height: auto;
+  padding: 40px 0px 40px 170px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-contacto img {
+    padding: 67px 3px 136px 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container-contacto img {
+    display: none;
+  }
+}
+
+.container-contacto h4 {
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 20px;
+  color: #848484;
+}
+
+.container-contacto input, .container-contacto select {
+  font-family: 'Nunito';
+  border: 1px solid #F2978A;
+  padding: 5px;
+  width: 250px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.container-contacto .mensaje-input {
+  height: 120px;
+  padding: 0;
+}
+
+.container-contacto .boton-enviar {
+  background-color: #F2978A;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.container-contacto .boton-enviar:hover {
+  -webkit-box-shadow: 3px 3px 10px #8080806b;
+          box-shadow: 3px 3px 10px #8080806b;
+}
+
+.mapa-google {
+  width: 100%;
+}
+
+.container-item {
+  padding-top: 125px;
+  text-align: center;
+}
+
+.container-item h2 {
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 20px;
+  color: #848484;
+  margin-top: 20px;
+}
+
+.container-item a {
+  font-weight: 600;
+  text-decoration: none;
+  font-family: nunito;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.container-item a:hover {
+  color: #F2978A;
 }
 /*# sourceMappingURL=style.css.map */

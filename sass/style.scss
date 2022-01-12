@@ -93,8 +93,14 @@
             }
         }
 
-        a{
-            @include link;
+        p{
+            padding: 0px 70px;
+            @include subtitle;
+
+            @media only screen and (max-width: 768px){
+                padding: 0px 40px;
+            }
+    
         }
     }
 }

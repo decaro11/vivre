@@ -218,6 +218,64 @@
   --bs-gutter-x: none;
 }
 
+.modal .modal-content {
+  text-align: center;
+  margin: 50% 0%;
+  border: none;
+  border-radius: 10px;
+}
+
+.modal .modal-header {
+  display: block;
+}
+
+.modal .modal-header .modal-title {
+  font-family: nunito;
+  font-weight: 600;
+  font-size: 30px;
+  color: #F2978A;
+  text-align: center;
+}
+
+.modal .modal-body {
+  font-family: nunito;
+  font-size: 15px;
+}
+
+.modal .modal-footer {
+  display: block;
+}
+
+.modal .modal-footer .button-modal-aceptar {
+  background-color: #F2978A;
+  border: none;
+  width: 260px;
+  text-align: center;
+  padding: 2%;
+}
+
+.boton-comprar {
+  background-color: #F2978A;
+  border: none;
+  width: 260px;
+  text-align: center;
+  padding: 2%;
+  width: 100px;
+  color: white;
+}
+
+.boton-comprar:hover {
+  background-color: #F2978A;
+  border: none;
+  width: 260px;
+  text-align: center;
+  padding: 2%;
+  width: 100px;
+  -webkit-box-shadow: 1px 6px 10px #808080b0;
+          box-shadow: 1px 6px 10px #808080b0;
+  color: white;
+}
+
 .carousel {
   padding-top: 89px;
 }

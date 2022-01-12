@@ -6,6 +6,48 @@
     --bs-gutter-x: none;
     
 }
+
+// modal
+
+.modal{
+    .modal-content{
+        text-align: center;
+        margin: 50% 0%;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .modal-header{
+        display: block;
+        .modal-title{
+            @include title;
+            color: $primary-color;
+            text-align: center;
+        }
+    }
+    .modal-body{
+        @include subtitle;
+    }
+    .modal-footer{
+        display: block;
+        .button-modal-aceptar{
+            @include container-button;
+        }
+    }
+}
+
+.boton-comprar{
+    @include container-button;
+    width: 100px;
+    color: white;
+}
+
+.boton-comprar:hover{
+    @include container-button;
+    width: 100px;
+    box-shadow: 1px 6px 10px #808080b0;
+    color: white;
+}
 //-------------------------------HOME------------------------------------------------
 
 // carrusel

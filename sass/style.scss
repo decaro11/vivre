@@ -259,11 +259,11 @@
     }
 
     .abrigo{
-        background-image: url("../img/coleccion/abrigo.png");
+        background-image: url("../img/coleccion/abrigo.webp");
     }
 
     .camisas{       
-        background-image: url("../img/coleccion/camisas.png");
+        background-image: url("../img/coleccion/camisas.webp");
     }
 
     .remera{       
@@ -314,7 +314,12 @@
     }
 
     .vestidos{       
-        background-image: url("../img/coleccion/vestidos.png");
+        background-image: url("../img/coleccion/vestidos.webp");
+
+        @media only screen and (max-width: 500px) {
+            background-image: url("../img/coleccion/vestidos\ mobile.webp");
+        }
+        
     }
 }
 

@@ -555,11 +555,11 @@
 }
 
 .container-colecciones-2 .abrigo {
-  background-image: url("../img/coleccion/abrigo.png");
+  background-image: url("../img/coleccion/abrigo.webp");
 }
 
 .container-colecciones-2 .camisas {
-  background-image: url("../img/coleccion/camisas.png");
+  background-image: url("../img/coleccion/camisas.webp");
 }
 
 .container-colecciones-2 .remera {
@@ -637,7 +637,13 @@
 }
 
 .container-colecciones .vestidos {
-  background-image: url("../img/coleccion/vestidos.png");
+  background-image: url("../img/coleccion/vestidos.webp");
+}
+
+@media only screen and (max-width: 500px) {
+  .container-colecciones .vestidos {
+    background-image: url("../img/coleccion/vestidos mobile.webp");
+  }
 }
 
 .container-title-contacto .titulos {

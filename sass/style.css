@@ -299,6 +299,10 @@
   text-align: center;
 }
 
+.container-new-arrivals .colecciones-imagenes {
+  width: 300px;
+}
+
 .container-new-arrivals .animation-img {
   border-radius: 5px;
   -webkit-transition: -webkit-transform 0.5s;
@@ -624,8 +628,8 @@
   background-image: url("../img/coleccion/remeras.png");
 }
 
-.container-colecciones-2 .short {
-  background-image: url("../img/coleccion/shorts.png");
+.container-colecciones-2 .falda {
+  background-image: url("../img/coleccion/falda.webp");
 }
 
 .container-colecciones-2 .pantalones {
@@ -806,5 +810,47 @@
 
 .container-item a:hover {
   color: #F2978A;
+}
+
+.container-item p {
+  font-family: nunito;
+  font-size: 15px;
+  color: #6c757d;
+  font-weight: bold;
+}
+
+.container-item .colecciones-imagenes {
+  width: 300px;
+}
+
+.container-item .animation-img {
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-item .animation-img {
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container-item .animation-img {
+    width: 300px;
+  }
+}
+
+.container-item .animation-img:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-box-shadow: 3px 3px 10px #8080806b;
+          box-shadow: 3px 3px 10px #8080806b;
+}
+
+.margin-container-2 {
+  padding-bottom: 125px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -436,6 +436,10 @@
     padding-top: 125px;
     text-align: center;
 
+    button{
+        margin-bottom: 5%
+    }
+
     h2{
         @include title-formulario;
         margin-top: 20px;
@@ -454,6 +458,7 @@
 
     .colecciones-imagenes{
         width: 300px;
+
     }
 
     .animation-img{

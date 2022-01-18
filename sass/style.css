@@ -792,6 +792,10 @@
   text-align: center;
 }
 
+.container-item button {
+  margin-bottom: 5%;
+}
+
 .container-item h2 {
   font-family: nunito;
   font-weight: 600;
